@@ -1,5 +1,4 @@
 //class declaration
-
 class Coin {
     constructor(name, ticker){
         this.name =name;
@@ -11,7 +10,6 @@ class Coin {
 }
 
 // Creating instance from Coin
-
 const coin1 = new Coin('Bitcoin','BTC');
 const coin2 = new Coin('Bitcoin','ETH');
 

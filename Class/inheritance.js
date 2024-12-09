@@ -7,11 +7,11 @@ class Cryptocurrency {
     }
 
     getInfo(){
-        return `${this.name} (${this.ticker}) has a market cap of $${this.marketCap} bilion.`;
+        return `${this.name} ($${this.ticker}) has a market cap of $${this.marketCap} bilion.`;
     }
 
     transfer(amount, recipient) {
-        return `Transferred ${amount} ${this.ticker} to ${recipient}.`;
+        return `Transferred ${amount} $${this.ticker} to ${recipient}.`;
     }
 };
 
